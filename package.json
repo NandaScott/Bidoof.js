@@ -1,0 +1,26 @@
+{
+  "name": "bidoof",
+  "version": "0.1.0",
+  "description": "A Pokemon TCG bot",
+  "main": "./build/index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NandaScott/Bidoof.js.git"
+  },
+  "author": "Nanda Scott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NandaScott/Bidoof.js/issues"
+  },
+  "homepage": "https://github.com/NandaScott/Bidoof.js#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "pokemon-tcg-sdk-typescript": "^1.3.4",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.4"
+  }
+}
